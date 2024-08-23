@@ -18,36 +18,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jessica Rodriguez
-email: hi@jessicarod.com
-description: >- # this means to ignore newlines until "baseurl:"
-  The personal website of Jessica Rodriguez.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jessicarod.com" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "jessicarod.com"
-github_username: jessicarod7
-
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# github-pages
+markdown: GFM
+
+# theme: minima
+github_username: jessicarod7
+minima:
+  skin: auto
+
+# jekyll-seo-tag
+title: Jessica Rodriguez
+description: The personal website of Jessica Rodriguez.
+logo: /assets/img/Jessica-Rodriguez-profile.jpg
+url: https://jessicarod.com # the base hostname & protocol for your site, e.g. http://example.com
+locale: en_CA
+social:
+  - https://github.com/jessicarod7
+  - https://linkedin.com/in/jessica.rodriguez
+  - https://facebook.com/jessica.racer77
