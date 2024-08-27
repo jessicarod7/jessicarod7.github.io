@@ -15,25 +15,20 @@
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dirt"
 
-#social:
-#  - https://github.com/jessicarod7
-#  - https://linkedin.com/in/jessica.rodriguez
-#  - https://facebook.com/jessica.racer77
-
 # Site Settings
 locale: "en-CA"
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
 title: "Jessica Rodriguez"
 title_separator: "|"
-subtitle: "Software Engineer"# site tagline that appears below site title in masthead
+subtitle: # site tagline that appears below site title in masthead
 name: "Jessica Rodriguez"
 description: "The personal website of Jessica Rodriguez."
 url: "https://jessicarod.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "jessicarod7/jessicarod7.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: "/assets/img/Jessica-Rodriguez-profile.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: "Jessica Rodriguez" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: # true, false (default)
 date_format: "%Y-%m-%d, %H:%M"
 words_per_minute: 200
@@ -102,13 +97,16 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: "/assets/img/Jessica-Rodriguez-og-image-2x.jpg" # Open Graph/Twitter default site image
+og_image: "/assets/img/Jessica-Rodriguez-og-image-1x.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type: # Person or Organization (defaults to Person)
+  type: "Person" # Person or Organization (defaults to Person)
   name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/jessicarod7"
+    - "https://linkedin.com/in/jessica-rod7"
+    - "https://instagram.com/jessica-rod"
 
 # Analytics
 analytics:
@@ -120,52 +118,49 @@ analytics:
 
 # Site Author
 author:
-  name: "Your Name"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
-  email:
+  name: "Jessica Rodriguez"
+  avatar: "/assets/img/Jessica-Rodriguez-profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "Software engineer, recovering engineering student. Occasionally, Racer 77."
+  location: "Toronto, Canada"
+  email: "hi@jessicarod.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/jessicarod7"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/jessica-rod7"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/jessica-rod"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: https://steamcommunity.com/id/Racer_77/
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/jessicarod7"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://gitlab.com/jessica-rod"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/jessica-rod7"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/jessica-rod"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/jessica.racer77"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://steamcommunity.com/id/Racer_77/"
+    - label: "Xbox"
+      icon: "fab fa-fw fa-xbox"
+      url: "https://www.xbox.com/en-CA/play/user/Racer%20J77"
 
 
 # Reading Files
@@ -180,6 +175,7 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
+  - .idea
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
@@ -207,7 +203,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: kramdown
+markdown: GFM
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -234,12 +230,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+timezone: "America/Toronto" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Pagination with jekyll-paginate-v2
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
@@ -265,7 +256,7 @@ pagination:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -273,7 +264,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -326,8 +317,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: true
       read_time: true
       comments: # true
-      share: true
       related: true
-      show_date: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: "single"
+      author_profile: true
+
+# Collections
+collections:
+  posts:
+    permalink: /blog/:year/:month/:title
+    output: true
