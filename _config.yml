@@ -107,7 +107,7 @@ social:
   links: # An array of links to social media profiles
     - "https://github.com/jessicarod7"
     - "https://linkedin.com/in/jessica-rod7"
-    - "https://instagram.com/jessica-rod"
+    - "https://instagram.com/jessica_rod7"
 
 # Analytics
 analytics:
@@ -133,7 +133,7 @@ author:
       url: "https://linkedin.com/in/jessica-rod7"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jessica-rod"
+      url: "https://instagram.com/jessica_rod7"
     - label: "Steam"
       icon: "fab fa-fw fa-steam"
       url: "https://steamcommunity.com/id/Racer_77/"
@@ -152,7 +152,7 @@ footer:
       url: "https://linkedin.com/in/jessica-rod7"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jessica-rod"
+      url: "https://instagram.com/jessica_rod7"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/jessica.racer77"
