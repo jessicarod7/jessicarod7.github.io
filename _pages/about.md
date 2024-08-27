@@ -7,7 +7,7 @@ permalink: /about
 
 In a previous version, I had a long write-up here, talking about my inspiration to pursue engineering, my passions throughout my school years — making the case for why I thought I was a big deal.
 
-But one identity crisis and  later, suddenly it's not all that important for me to say all of that. So instead, I'll add a few bullet points, and as I add more to this website, you can fill in the rest:
+But one identity crisis and [a realization]({% post_url 2024-08-27-coming-out %}) later, suddenly it's not all that important for me to say all of that. So instead, I'll add a few bullet points, and as I add more to this website, you can fill in the rest:
 
 - I'm Jessica Rodriguez. Hi!
 - Currently, I work as a Software Engineer on Platform Integrations at [Red Hat](https://www.redhat.com). I did a 16-month internship with the WildFly Elytron team.

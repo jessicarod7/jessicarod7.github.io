@@ -30,7 +30,7 @@ teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: "Jessica Rodriguez" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: # true, false (default)
-date_format: "%Y-%m-%d, %H:%M"
+date_format: "%Y-%m-%d"
 words_per_minute: 200
 show_excerpts: true
 enable_copy_code_button: true # true, false (default)
@@ -233,12 +233,16 @@ sass:
 permalink: /:categories/:title/
 timezone: "America/Toronto" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Pagination with jekyll-paginate
+#paginate: 5 # amount of posts to show
+#paginate_path: /blog/page:num/
+
 # Pagination with jekyll-paginate-v2
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 #   for configuration details
 pagination:
   # Set enabled to true to use paginate v2
-  # enabled: true
+  enabled: true
   debug: false
   collection: 'posts'
   per_page: 10
@@ -263,6 +267,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -272,6 +277,7 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-redirect-from
 
 
 # Archives
