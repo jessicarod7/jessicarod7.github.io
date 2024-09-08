@@ -131,6 +131,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/jessica-rod7"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-2164-3772"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/jessica_rod7"
@@ -150,9 +153,15 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/jessica-rod7"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-2164-3772"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/jessica_rod7"
+    - label: "Tumblr"
+      icon: "fab fa-fw fa-tumblr"
+      url: "https://www.tumblr.com/jessica-rod"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/jessica.racer77"
@@ -204,7 +213,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: GFM
+markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -221,6 +230,10 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 
 # Sass/SCSS
@@ -261,23 +274,37 @@ pagination:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-gist
+  - jekyll-avatar
+  # - jekyll-commonmark-ghpages
   - jekyll-feed
+  - jekyll-gist
+  - jekyll-github-metadata
   - jekyll-include-cache
-  - jekyll-remote-theme
+  - jekyll-paginate-v2
   - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-remote-theme
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-gist
+  - jekyll-avatar
+  # - jekyll-commonmark-ghpages
   - jekyll-feed
+  - jekyll-gist
+  - jekyll-github-metadata
   - jekyll-include-cache
-  - jekyll-remote-theme
+  - jekyll-paginate-v2
   - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-remote-theme
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 
 # Archives
