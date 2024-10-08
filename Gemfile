@@ -15,6 +15,10 @@ group :gh_pages do
   gem 'terminal-table', '~> 3.0', '>= 3.0.2'
 end
 
+group :theme do
+  gem "minimal-mistakes-jekyll", '~> 4.26', '>= 4.26.2'
+end
+
 group :jekyll_plugins do
   gem 'jekyll-avatar', '~> 0.8.0'
   # gem 'jekyll-commonmark-ghpages', '~> 0.5', '!= 0.5.1' # Not available in Jekyll 4

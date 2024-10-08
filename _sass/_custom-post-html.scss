@@ -1,7 +1,0 @@
-hr.ellipsis-hr {
-  border-top: thick double #999999 !important;
-
-  &::after {
-    content: "…";
-  }
-}
