@@ -1,0 +1,29 @@
+@use "sass:color";
+@use "minimal-mistakes/skins/dirt" as skin; // this should match the current theme
+
+.text-in-hr {
+  $darker-border-color: color.scale(skin.$border-color, $lightness: -30%);
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1em;
+
+  &::before, &::after {
+    content: '';
+    flex: 1;
+    border-top: thin solid $darker-border-color;
+  }
+
+  span {
+    color: $darker-border-color;
+  }
+
+  &::before {
+    margin-right: .25em;
+  }
+
+  &::after {
+    margin-left: .25em;
+  }
+}

@@ -12,7 +12,7 @@
 
 # Derived from: https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin: "dirt"
 
 # Site Settings
@@ -121,7 +121,7 @@ analytics:
 author:
   name: "Jessica Rodriguez"
   avatar: "/assets/img/Jessica-Rodriguez-profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Software engineer, recovering engineering student. Occasionally, Racer 77."
+  bio: "Software engineer, recovering engineering student."
   location: "Toronto, Canada"
   email: "hi@jessicarod.com"
   links:

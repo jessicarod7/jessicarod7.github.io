@@ -34,6 +34,7 @@
     <orderEntry type="library" scope="PROVIDED" name="jekyll-gist (v1.5.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-github-metadata (v2.16.1, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-include-cache (v0.2.1, rbenv: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jekyll-paginate (v1.1.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-paginate-v2 (v3.0.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-redirect-from (v0.16.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jekyll-remote-theme (v0.4.3, rbenv: 3.2.2) [gem]" level="application" />
