@@ -1,6 +1,45 @@
+diff -ru _sass/minimal-mistakes/_footer.scss _sass/minimal-mistakes/_footer.scss
+--- _sass/minimal-mistakes/_footer.scss 2024-11-27 12:11:48.000000000 -0500
++++ _sass/minimal-mistakes/_footer.scss 2024-12-08 13:07:05.027180753 -0500
+@@ -36,6 +36,18 @@
+     }
+   }
+ 
++  li.custom__url {
++    margin-right: 10.25px;
++
++    img {
++      margin-top: -0.125em;
++      padding-left: 0.125em;
++      padding-right: 0.125em;
++      max-height: $type-size-5;
++      width: inherit;
++    }
++  }
++
+   .fas,
+   .fab,
+   .far,
+diff -ru _sass/minimal-mistakes/_sidebar.scss _sass/minimal-mistakes/_sidebar.scss
+--- _sass/minimal-mistakes/_sidebar.scss        2024-11-27 12:11:48.000000000 -0500
++++ _sass/minimal-mistakes/_sidebar.scss        2024-12-08 13:08:48.062042783 -0500
+@@ -319,6 +319,13 @@
+       text-decoration: underline;
+     }
+   }
++
++  img.custom__url {
++    padding-left: 0.125em;
++    padding-right: 0.125em;
++    max-height: $type-size-5;
++    width: inherit;
++  }
+ }
+ 
+ /*
 diff -ru _sass/minimal-mistakes/_utilities.scss _sass/minimal-mistakes/_utilities.scss
 --- _sass/minimal-mistakes/_utilities.scss      2024-11-27 12:11:48.000000000 -0500
-+++ _sass/minimal-mistakes/_utilities.scss      2024-12-08 11:41:39.066349850 -0500
++++ _sass/minimal-mistakes/_utilities.scss      2024-12-08 12:11:57.604709647 -0500
 @@ -198,6 +198,14 @@
      color: $text-color;
    }

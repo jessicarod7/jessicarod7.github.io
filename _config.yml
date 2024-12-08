@@ -124,6 +124,7 @@ author:
   bio: "Software engineer, occasional blogger."
   location: "Toronto, Canada"
   email: "hi@jessicarod.com"
+  matrix: "@jessicarod:envs.net" # Matrix handle, format "@localpart:domain"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -137,15 +138,13 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/jessica_rod7"
-    - label: "Matrix"
-      icon: "fab fa-fw fa-matrix"
-      url: "https://matrix.to/#/@jessicarod:envs.net"
     - label: "Steam"
       icon: "fab fa-fw fa-steam"
       url: "https://steamcommunity.com/id/Racer_77/"
 
 # Site Footer
 footer:
+  matrix: "@jessicarod:envs.net"  # Matrix handle, format "@localpart:domain"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -168,9 +167,6 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/jessica.racer77"
-    - label: "Matrix"
-      icon: "fab fa-fw fa-matrix"
-      url: "https://matrix.to/#/@jessicarod:envs.net"
     - label: "Steam"
       icon: "fab fa-fw fa-steam"
       url: "https://steamcommunity.com/id/Racer_77/"
@@ -211,6 +207,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /_patches # local Minimal Mistakes patches
 keep_files:
   - .git
   - .svn

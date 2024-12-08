@@ -36,6 +36,18 @@
     }
   }
 
+  li.custom__url {
+    margin-right: 10.25px;
+
+    img {
+      margin-top: -0.125em;
+      padding-left: 0.125em;
+      padding-right: 0.125em;
+      max-height: $type-size-5;
+      width: inherit;
+    }
+  }
+
   .fas,
   .fab,
   .far,
