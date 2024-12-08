@@ -1,0 +1,18 @@
+diff -ru _sass/minimal-mistakes/_utilities.scss _sass/minimal-mistakes/_utilities.scss
+--- _sass/minimal-mistakes/_utilities.scss      2024-11-27 12:11:48.000000000 -0500
++++ _sass/minimal-mistakes/_utilities.scss      2024-12-08 11:41:39.066349850 -0500
+@@ -198,6 +198,14 @@
+     color: $text-color;
+   }
+ 
++  .fa-discord {
++    color: #5865F2;
++  }
++
++  .fa-xbox {
++    color: #107C10;
++  }
++
+   @each $color, $icons in (
+     $behance-color: ".fa-behance, .fa-behance-square",
+     $bitbucket-color: ".fa-bitbucket",
