@@ -37,6 +37,4 @@ tl;dr
 
 holy shit it's so nice to finally be me
 
-[^1]: If you'd rather not send a
-message, [this article](https://stainedglasswoman.substack.com/p/oh-st-my-coworker-just-told-me-theyre) is also a great
-starting point.
+[^1]: If you'd rather not send a message, [this article](https://stainedglasswoman.substack.com/p/oh-st-my-coworker-just-told-me-theyre) is also a great starting point.
