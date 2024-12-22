@@ -6,8 +6,8 @@ permalink: /about
 In a previous version, I had a long write-up here, talking about my inspiration to pursue engineering, my passions
 throughout my school years — making the case for why I thought I was a big deal.
 
-But one identity crisis and [a realization]({% post_url 2024-08-27-coming-out %}) later, not of that pressure is
-important anymore 😄. So instead, I'll add a few bullet points, and you can fill in the rest:
+But one identity crisis and [a realization]({% post_url 2024-08-27-coming-out %}) later, none of that actually
+feels important 😄. So instead, I'll add a few bullet points, and you can fill in the rest:
 
 - I'm Jessica Rodriguez. Hi!
 - Currently, I work as a Software Engineer on Platform Integrations at [Red Hat](https://www.redhat.com). I did a
