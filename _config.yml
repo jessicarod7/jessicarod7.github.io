@@ -121,9 +121,10 @@ analytics:
 author:
   name: "Jessica Rodriguez"
   avatar: "/assets/img/Jessica-Rodriguez-profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Software engineer, recovering engineering student."
+  bio: "Software engineer, occasional blogger."
   location: "Toronto, Canada"
   email: "hi@jessicarod.com"
+  matrix: "@jessicarod:envs.net" # Matrix handle, format "@localpart:domain"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -143,6 +144,7 @@ author:
 
 # Site Footer
 footer:
+  matrix: "@jessicarod:envs.net"  # Matrix handle, format "@localpart:domain"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -205,6 +207,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /_patches # local Minimal Mistakes patches
 keep_files:
   - .git
   - .svn
