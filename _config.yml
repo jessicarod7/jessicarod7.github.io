@@ -120,7 +120,7 @@ analytics:
 # Site Author
 author:
   name: "Jessica Rodriguez"
-  avatar: "/assets/img/Jessica-Rodriguez-profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/img/Jessica-Rodriguez-profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Software engineer, occasional blogger."
   location: "Toronto, Canada"
   email: "hi@jessicarod.com"
