@@ -124,7 +124,6 @@ author:
   bio: "Software engineer, occasional blogger."
   location: "Toronto, Canada"
   email: "hi@jessicarod.com"
-  matrix: "@jessicarod:envs.net" # Matrix handle, format "@localpart:domain"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -135,6 +134,9 @@ author:
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-2164-3772"
+    - label: "Matrix"
+      icon: "fas fa-fw fa-hexagon-nodes"
+      url: "https://matrix.to/#/@jessicarod:envs.net"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/jessica_rod7"
@@ -144,7 +146,6 @@ author:
 
 # Site Footer
 footer:
-  matrix: "@jessicarod:envs.net"  # Matrix handle, format "@localpart:domain"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -158,6 +159,9 @@ footer:
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-2164-3772"
+    - label: "Matrix"
+      icon: "fas fa-fw fa-hexagon-nodes"
+      url: "https://matrix.to/#/@jessicarod:envs.net"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/jessica_rod7"
