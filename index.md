@@ -8,8 +8,9 @@ author_profile: true
 
 Hi, I'm Jessica!
 
-This is my personal website, where I blog about tech, life, and everything else. There isn't a theme or schedule to what
-I put up, so you can be pleasantly surprised by subscribing to the [RSS feed]({{ "/feed.xml" | absolute_url }}).
+This is my personal website, where I blog about life, tech, and everything else. There isn't a theme or set schedule to
+what I put up, but I'm liking this "every two to three months" thing I have going on. Either way, you can be pleasantly
+surprised by subscribing to the [RSS feed]({{ "/feed.xml" | absolute_url }}).
 
 I'm also in a lot of places on the Internet: check the links in the sidebar or behind the follow button. 
 
