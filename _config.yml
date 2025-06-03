@@ -137,9 +137,6 @@ author:
     - label: "Steam"
       icon: "fab fa-fw fa-steam"
       url: "https://steamcommunity.com/id/Racer_77/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jessica_rod7"
 
 # Site Footer
 footer:
