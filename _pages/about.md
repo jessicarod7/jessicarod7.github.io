@@ -15,5 +15,6 @@ feels important. So instead, I'll add a few bullet points, and you can fill in t
 - I studied Computer Engineering at the [University of Toronto](https://www.utoronto.ca/).
 - During that time, I was a member of [UTAT Space Systems](https://www.utat.ca/space-systems), and spent a few years as
   the Firmware System Lead. I'm still an advisor to the team.
-- I like skiing, kayaking, and cycling. And I've recently returned to the gym. (finally!)
+- I like skiing, kayaking, and cycling. I've recently gotten back into swimming, and I'm exploring other activities.
+- I love meeting people, and seeing the world.
 - Still figuring out the rest 😊 
