@@ -16,8 +16,8 @@ I have profiles all over the Internet; check the links in the sidebar/follow but
 increasingly IRL), so ask for my username via the other channels.
 
 My current GPG key is `6D71 C504 6A9A 4B98 DAE9 5EE8 BBA3 C03E D204 C805`, corresponding to _dev_ at _jessicarod_, dot com.
-You can retrieve it via [WKD](https://wiki.gnupg.org/WKD), [keys.openpgp.org](https://keys.openpgp.org/) and
-[keyserver.ubuntu.com](https://keyserver.ubuntu.com/). The easiest way to do it is via your email client, or in the terminal with [sq](https://sequoia-pgp.gitlab.io/user-documentation):
+You can retrieve it via [WKD](https://wiki.gnupg.org/WKD) and various keyservers. The easiest way to do that is via your email client, or in
+the terminal with [sq](https://book.sequoia-pgp.org/):
 
 ```shell
 # Pull from WKD and the keyservers
