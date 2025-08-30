@@ -1,6 +1,6 @@
-diff -ru _sass/minimal-mistakes/skins/_dirt.scss _sass/minimal-mistakes/skins/_dirt.scss
---- _sass/minimal-mistakes/skins/_dirt.scss	2024-11-27 12:11:48.000000000 -0500
-+++ _sass/minimal-mistakes/skins/_dirt.scss	2024-12-22 15:03:04.155475799 -0500
+diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/skins/_dirt.scss _sass/minimal-mistakes/skins/_dirt.scss
+--- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/skins/_dirt.scss	2025-07-29 01:03:47.000000000 -0400
++++ _sass/minimal-mistakes/skins/_dirt.scss	2025-08-30 13:02:29.610443701 -0400
 @@ -15,19 +15,19 @@
  $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
  
@@ -37,21 +37,25 @@ diff -ru _sass/minimal-mistakes/skins/_dirt.scss _sass/minimal-mistakes/skins/_d
 +//$base0d: #88a4d3 !default;
 +//$base0e: #bb90e2 !default;
 +//$base0f: #b49368 !default;
-diff -ru _sass/minimal-mistakes/_utilities.scss _sass/minimal-mistakes/_utilities.scss
---- _sass/minimal-mistakes/_utilities.scss      2024-11-27 12:11:48.000000000 -0500
-+++ _sass/minimal-mistakes/_utilities.scss      2024-12-08 12:11:57.604709647 -0500
-@@ -198,6 +198,14 @@
-     color: $text-color;
-   }
- 
-+  .fa-discord {
-+    color: #5865F2;
-+  }
-+
-+  .fa-xbox {
-+    color: #107C10;
-+  }
-+
-   @each $color, $icons in (
-     $behance-color: ".fa-behance, .fa-behance-square",
-     $bitbucket-color: ".fa-bitbucket",
+diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utilities.scss _sass/minimal-mistakes/_utilities.scss
+--- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utilities.scss	2025-07-29 01:03:47.000000000 -0400
++++ _sass/minimal-mistakes/_utilities.scss	2025-08-30 13:53:14.550149353 -0400
+@@ -225,6 +225,7 @@
+     $tumblr-color: ".fa-tumblr, .fa-tumblr-square",
+     $twitter-color: ".fa-twitter, .fa-twitter-square",
+     $x-color: ".fa-x-twitter, .fa-square-x-twitter",
++    $xbox-color: ".fa-xbox",
+     $vimeo-color: ".fa-vimeo, .fa-vimeo-square, .fa-vimeo-v",
+     $vine-color: ".fa-vine",
+     $xing-color: ".fa-xing, .fa-xing-square",
+diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_variables.scss _sass/minimal-mistakes/_variables.scss
+--- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_variables.scss	2025-07-29 01:03:47.000000000 -0400
++++ _sass/minimal-mistakes/_variables.scss	2025-08-30 13:52:28.797908060 -0400
+@@ -143,6 +143,7 @@
+ $tumblr-color: #32506d !default;
+ $twitter-color: #55acee !default;
+ $x-color: #0f1419 !default;
++$xbox-color: #107C10 !default;
+ $vimeo-color: #1ab7ea !default;
+ $vine-color: #00bf8f !default;
+ $youtube-color: #bb0000 !default;

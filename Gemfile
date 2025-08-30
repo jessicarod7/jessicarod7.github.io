@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 4.3', '>= 4.3.3'
+gem 'jekyll', '~> 4.4', '>= 4.4.1'
 
 # github-pages 232 substitute
 group :gh_pages do
@@ -16,7 +16,7 @@ group :gh_pages do
 end
 
 group :theme do
-  gem "minimal-mistakes-jekyll", '~> 4.26', '>= 4.26.2'
+  gem "minimal-mistakes-jekyll", '~> 4.27', '>= 4.27.3'
 end
 
 group :jekyll_plugins do
