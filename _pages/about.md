@@ -3,18 +3,16 @@ title: About me
 permalink: /about
 ---
 
-In a previous version, I had a long write-up here, talking about my inspiration to pursue engineering, my passions
-throughout my school years — making the case for why I thought I was a big deal.
+I'm Jessica, a software engineer working on Platform Integrations for the Red Hat [Hybrid Cloud
+Console](https://cloud.redhat.com/). If you're adjusting your notification and alerts, that's me! (among other
+services I work on) 
 
-But one identity crisis and [a realization]({% post_url 2024-08-27-coming-out %}) later, none of that
-feels important. So instead, I'll add a few bullet points, and you can fill in the rest:
+I graduated Computer Engineering from the University of Toronto in 2024. While I was there, I was the Firmware lead for
+[UTAT Space Systems](https://www.utat.ca/space-systems), helping to build and operate CubeSats like FINCH and HERON Mk
+II. I remain an advisor to the team. I spent a 16-month co-op term with the [WildFly Elytron team](https://www.wildfly.org/),
+working on Jakarta Security for [JBoss EAP](https://www.redhat.com/en/technologies/jboss-middleware/application-platform).
+My capstone project was a [brain contact detection system](https://github.com/jessicarod7/aps490_pfpu2_mini) for autopsy
+saws, working with Ontario's Forensic Pathology Unit.
 
-- I'm Jessica Rodriguez. Hi!
-- Currently, I work as a Software Engineer on Platform Integrations at [Red Hat](https://www.redhat.com). I did a
-  16-month internship with the WildFly Elytron team.
-- I studied Computer Engineering at the [University of Toronto](https://www.utoronto.ca/).
-- During that time, I was a member of [UTAT Space Systems](https://www.utat.ca/space-systems), and spent a few years as
-  the Firmware System Lead. I'm still an advisor to the team.
-- I like skiing, kayaking, and cycling. I've recently gotten back into swimming, and I'm exploring other activities.
-- I love meeting people, and seeing the world.
-- Still figuring out the rest 😊 
+As an extrovert, I love to meet new people. I enjoy skiing, kayaking, and cycling, and recently I've gotten into
+contemporary dance 💃🏾 It's all new, but it's a lot of fun 😊
