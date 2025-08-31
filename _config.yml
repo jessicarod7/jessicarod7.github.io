@@ -107,6 +107,7 @@ social:
   links: # An array of links to social media profiles
     - "https://github.com/jessicarod7"
     - "https://linkedin.com/in/jessica-rod7"
+    - "https://transfem.social/@jessicarod"
     - "https://instagram.com/jessica_rod7"
 
 # Analytics
@@ -134,9 +135,12 @@ author:
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-2164-3772"
-    - label: "Steam"
-      icon: "fab fa-fw fa-steam"
-      url: "https://steamcommunity.com/id/Racer_77/"
+    - label: "Fediverse (Sharkey)"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://transfem.social/@jessicarod"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/jessica_rod7"
 
 # Site Footer
 footer:
@@ -153,21 +157,25 @@ footer:
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-2164-3772"
-    - label: "Tumblr"
-      icon: "fab fa-fw fa-tumblr"
-      url: "https://www.tumblr.com/jessicarod"
-    - label: "Steam"
-      icon: "fab fa-fw fa-steam"
-      url: "https://steamcommunity.com/id/Racer_77/"
+    - label: "Fediverse"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://transfem.social/@jessicarod"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/jessica_rod7"
+    - label: "Tumblr"
+      icon: "fab fa-fw fa-tumblr"
+      url: "https://www.tumblr.com/jessicarod"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/jessica.racer77"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://steamcommunity.com/id/Racer_77/"
     - label: "Xbox"
       icon: "fab fa-fw fa-xbox"
       url: "https://www.xbox.com/en-CA/play/user/Racer%20J77"
+  since: "2024"
 
 
 # Reading Files
@@ -195,6 +203,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - log
+  - minimal-mistakes-jekyll.gemspec
   - node_modules
   - package.json
   - package-lock.json

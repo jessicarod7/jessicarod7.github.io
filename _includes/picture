@@ -1,0 +1,17 @@
+{% assign picture = page.pictures[include.id] %}
+{% capture asset_dir %}/assets/img/{{ page.date | date: "%Y/%m" }}/{% endcapture %}
+
+<figure>
+  <picture>
+    {% for img in picture.srcset %}
+      <source srcset="{{ asset_dir }}{{ img }}">
+    {% endfor %}
+    <img src="{{ asset_dir }}{{ picture.fallback }}" alt="{{ picture.alt }}"
+      {% if picture.title %}
+         title="{{ picture.title }}"
+      {% endif %}>
+  </picture>
+  {% if picture.caption %}
+    <figcaption>{{ picture.caption }}</figcaption>
+  {% endif %}
+</figure>
