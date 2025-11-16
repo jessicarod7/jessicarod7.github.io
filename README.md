@@ -9,8 +9,8 @@ to add customizations (stored in [_patches/](./_patches)). Here are the imported
 
 |         Directory         |                                       Tag                                       | Last bumped |                Patch file                 |
 |:-------------------------:|:-------------------------------------------------------------------------------:|:-----------:|:-----------------------------------------:|
-|     [_sass/](./_sass)     |   [`4.27.3`](https://github.com/mmistakes/minimal-mistakes/tree/4.27.3/_sass)   | 2025-08-30  |     [sass.diff](./_patches/sass.diff)     |
-| [_includes/](./_includes) | [`4.27.3`](https://github.com/mmistakes/minimal-mistakes/tree/4.27.3/_includes) | 2025-08-30  | [includes.diff](./_patches/includes.diff) |
+|     [_sass/](./_sass)     |   [`4.27.3`](https://github.com/mmistakes/minimal-mistakes/tree/4.27.3/_sass)   | 2025-11-16  |     [sass.diff](./_patches/sass.diff)     |
+| [_includes/](./_includes) | [`4.27.3`](https://github.com/mmistakes/minimal-mistakes/tree/4.27.3/_includes) | 2025-11-16  | [includes.diff](./_patches/includes.diff) |
 
 ## License
 

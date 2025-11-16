@@ -1,6 +1,20 @@
+diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_sidebar.scss _sass/minimal-mistakes/_sidebar.scss
+--- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_sidebar.scss	2025-07-29 01:03:47.000000000 -0400
++++ _sass/minimal-mistakes/_sidebar.scss	2025-11-16 12:41:23.296575004 -0500
+@@ -201,6 +201,10 @@
+   .author__urls {
+     span.label {
+       padding-inline-start: 5px;
++
++      &.label-color-signal {
++        color: $signal-color;
++      }
+     }
+   }
+ 
 diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/skins/_dirt.scss _sass/minimal-mistakes/skins/_dirt.scss
 --- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/skins/_dirt.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/skins/_dirt.scss	2025-08-30 13:02:29.610443701 -0400
++++ _sass/minimal-mistakes/skins/_dirt.scss	2024-12-22 15:10:42.037598946 -0500
 @@ -15,19 +15,19 @@
  $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
  
@@ -39,8 +53,14 @@ diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/skins/_d
 +//$base0f: #b49368 !default;
 diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utilities.scss _sass/minimal-mistakes/_utilities.scss
 --- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utilities.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/_utilities.scss	2025-08-30 13:53:14.550149353 -0400
-@@ -225,6 +225,7 @@
++++ _sass/minimal-mistakes/_utilities.scss	2025-11-16 12:30:51.902155445 -0500
+@@ -220,11 +220,13 @@
+     $pinterest-color: ".fa-pinterest, .fa-pinterest-p, .fa-pinterest-square",
+     $reddit-color: ".fa-reddit",
+     $rss-color: ".fa-rss, .fa-rss-square",
++    $signal-color: ".fa-signal-messenger",
+     $soundcloud-color: ".fa-soundcloud",
+     $stackoverflow-color: ".fa-stack-exchange, .fa-stack-overflow",
      $tumblr-color: ".fa-tumblr, .fa-tumblr-square",
      $twitter-color: ".fa-twitter, .fa-twitter-square",
      $x-color: ".fa-x-twitter, .fa-square-x-twitter",
@@ -50,8 +70,14 @@ diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utiliti
      $xing-color: ".fa-xing, .fa-xing-square",
 diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_variables.scss _sass/minimal-mistakes/_variables.scss
 --- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_variables.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/_variables.scss	2025-08-30 13:52:28.797908060 -0400
-@@ -143,6 +143,7 @@
++++ _sass/minimal-mistakes/_variables.scss	2025-11-16 12:30:26.299693096 -0500
+@@ -138,11 +138,13 @@
+ $pinterest-color: #cb2027 !default;
+ $reddit-color: #ff4500 !default;
+ $rss-color: #fa9b39 !default;
++$signal-color: #3b45fd !default;
+ $soundcloud-color: #ff3300 !default;
+ $stackoverflow-color: #fe7a15 !default;
  $tumblr-color: #32506d !default;
  $twitter-color: #55acee !default;
  $x-color: #0f1419 !default;
