@@ -201,6 +201,10 @@
   .author__urls {
     span.label {
       padding-inline-start: 5px;
+
+      &.label-color-signal {
+        color: $signal-color;
+      }
     }
   }
 

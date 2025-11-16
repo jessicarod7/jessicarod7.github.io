@@ -126,6 +126,9 @@ author:
   location: "Toronto, Canada"
   email: "hi@jessicarod.com"
   links:
+    - label: "Contact for Signal"
+      label-color: "signal"
+      icon: "fab fa-fw fa-signal-messenger"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jessicarod7"
@@ -135,7 +138,7 @@ author:
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-2164-3772"
-    - label: "Fediverse (Sharkey)"
+    - label: "Fediverse"
       icon: "fab fa-fw fa-mastodon"
       url: "https://transfem.social/@jessicarod"
     - label: "Instagram"
