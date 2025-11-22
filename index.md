@@ -14,4 +14,7 @@ surprised by subscribing to the [RSS feed]({{ "/feed.xml" | absolute_url }}).
 
 Email comments or questions to <span style="white-space:nowrap;"><code>[hi at jessicarod, dot com]</code></span>
 ([please no PGP]({{ "/pgp" | absolute_url }})). I'm also active on Signal; ask for my username via email or Instagram
-for the quickest response. I've also linked to some of my various profiles in the sidebar/follow button and footer. Accounts not included (ex. Wikipedia, OpenStreetMap) _might_ be me if they link back to my website.
+for the quickest response.
+
+I've linked to some of my profiles in the sidebar/follow button and footer. Missing accounts that are cross-linked with
+my ORCID record are likely my own. Anything else _might_ be me if they link back to this website.
