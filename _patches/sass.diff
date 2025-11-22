@@ -1,6 +1,6 @@
 diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_sidebar.scss _sass/minimal-mistakes/_sidebar.scss
 --- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_sidebar.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/_sidebar.scss	2025-11-16 12:41:23.296575004 -0500
++++ _sass/minimal-mistakes/_sidebar.scss	2025-11-16 13:32:55.921491045 -0500
 @@ -201,6 +201,10 @@
    .author__urls {
      span.label {
@@ -53,8 +53,12 @@ diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/skins/_d
 +//$base0f: #b49368 !default;
 diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utilities.scss _sass/minimal-mistakes/_utilities.scss
 --- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utilities.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/_utilities.scss	2025-11-16 12:30:51.902155445 -0500
-@@ -220,11 +220,13 @@
++++ _sass/minimal-mistakes/_utilities.scss	2025-11-22 13:34:43.508412577 -0500
+@@ -217,14 +217,17 @@
+     $lastfm-color: ".fa-lastfm, .fa-lastfm-square",
+     $linkedin-color: ".fa-linkedin, .fa-linkedin-in",
+     $mastodon-color: ".fa-mastodon, .fa-mastodon-square",
++    $orcid-color: ".fa-orcid",
      $pinterest-color: ".fa-pinterest, .fa-pinterest-p, .fa-pinterest-square",
      $reddit-color: ".fa-reddit",
      $rss-color: ".fa-rss, .fa-rss-square",
@@ -70,8 +74,12 @@ diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utiliti
      $xing-color: ".fa-xing, .fa-xing-square",
 diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_variables.scss _sass/minimal-mistakes/_variables.scss
 --- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_variables.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/_variables.scss	2025-11-16 12:30:26.299693096 -0500
-@@ -138,11 +138,13 @@
++++ _sass/minimal-mistakes/_variables.scss	2025-11-22 13:34:43.484412152 -0500
+@@ -135,14 +135,17 @@
+ $lastfm-color: #d51007 !default;
+ $linkedin-color: #007bb6 !default;
+ $mastodon-color: #2b90d9 !default;
++$orcid-color: #a6ce39 !default;
  $pinterest-color: #cb2027 !default;
  $reddit-color: #ff4500 !default;
  $rss-color: #fa9b39 !default;

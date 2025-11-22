@@ -10,7 +10,7 @@ diff '--color=auto' -ru /minimal-mistakes-4.27.3/_includes/analytics-providers/c
 \ No newline at end of file
 diff '--color=auto' -ru /minimal-mistakes-4.27.3/_includes/author-profile.html _includes/author-profile.html
 --- /minimal-mistakes-4.27.3/_includes/author-profile.html	2025-07-29 01:03:47.000000000 -0400
-+++ _includes/author-profile.html	2025-11-16 12:44:55.850460818 -0500
++++ _includes/author-profile.html	2025-11-22 13:56:47.592482840 -0500
 @@ -31,10 +31,21 @@
          </li>
        {% endif %}
@@ -27,7 +27,8 @@ diff '--color=auto' -ru /minimal-mistakes-4.27.3/_includes/author-profile.html _
        {% if author.links %}
          {% for link in author.links %}
            {% if link.label and link.url %}
-             <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
++            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}{% if link.icon contains "orcid" %} aria-label="View ORCID record"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
 +          {% elsif link.label and link.label-color %}
 +            <li><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label label-color-{{ link.label-color }}">{{ link.label }}</span></li>
            {% endif %}
