@@ -31,7 +31,7 @@ logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x8
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: # true, false (default)
 date_format: "%Y-%m-%d"
-words_per_minute: 200
+words_per_minute: 175
 show_excerpts: true
 enable_copy_code_button: true # true, false (default)
 copyright: # "copyright" name, defaults to site.title
@@ -107,7 +107,7 @@ social:
   links: # An array of links to social media profiles
     - "https://github.com/jessicarod7"
     - "https://linkedin.com/in/jessica-rod7"
-    - "https://transfem.social/@jessicarod"
+    - "https://orcid.org/0000-0002-2164-3772"
     - "https://instagram.com/jessica_rod7"
 
 # Analytics
@@ -138,9 +138,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/jessica-rod7"
-    - label: "Fediverse"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://transfem.social/@jessicarod"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/jessica_rod7"
