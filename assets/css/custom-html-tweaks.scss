@@ -28,6 +28,15 @@
   }
 }
 
+.centred-body-h2 {
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+  border-style: none !important;
+  margin-top: 1em;
+  text-align: center;
+}
+
 // Catppuccin Macchiato code blocks (commented out in dirt skin)
 $base00: "#24273a" !important; // base
 $base01: "#1e2030" !important; // mantle
