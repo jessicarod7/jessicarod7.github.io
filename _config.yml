@@ -124,7 +124,7 @@ author:
   avatar: "/assets/img/Jessica-Rodriguez-profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Software engineer, occasional blogger."
   location: "Toronto, Canada"
-  email: "hi@jessicarod.com"
+  email: # See home page
   links:
     - label: "Contact for Signal"
       label-color: "signal"

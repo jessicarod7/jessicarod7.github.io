@@ -3,7 +3,7 @@ title: About me
 permalink: /about
 ---
 
-I'm Jessica, a software engineer working on Platform Integrations for the Red Hat [Hybrid Cloud
+I'm Jessica, a software engineer working on Fabric Notifications for the Red Hat [Hybrid Cloud
 Console](https://cloud.redhat.com/). If you're adjusting your notification and alerts, that's me! (among other
 services I work on) 
 
