@@ -17,7 +17,7 @@ If you need secure communications, ask for my Signal username. Otherwise, we can
 guarantees.
 
 My current PGP key is `6D71 C504 6A9A 4B98 DAE9 5EE8 BBA3 C03E D204 C805`, corresponding to
-<span style="white-space:nowrap;"><code>[dev at (the same domain)]</code></span>. Retrieve it from
+<span style="white-space:nowrap;"><code>[dev at jessicarod, dot com]</code></span>. Retrieve it from
 [WKD](https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/) and keyservers using the [sq CLI](https://book.sequoia-pgp.org/):
 
 ```shell
