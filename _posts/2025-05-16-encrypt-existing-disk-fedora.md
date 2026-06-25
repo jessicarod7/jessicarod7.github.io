@@ -1,16 +1,16 @@
 ---
 title: "How to encrypt an existing disk on Fedora without formatting"
 date: 2025-05-16
+last_modified_at: 2026-06-24
 excerpt: "Make a backup first!"
 ---
 
-_This is a mirror of [an existing answer](https://unix.stackexchange.com/a/710373/533888) that I posted on the Unix & 
+_This is derived from [an existing answer](https://unix.stackexchange.com/a/710373/533888) that I posted on the Unix & 
 Linux Stack Exchange. I'm bringing it to my personal blog for preservation purposes (and honestly, so I can refer back
 to it when I inevitably need to set up a new laptop).
 **[This post]({% post_url 2025-05-16-encrypt-existing-disk-fedora %}) by Jessica Rodriguez is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).**_
 
-_I originally wrote this guide for Fedora 36, but there haven't been any significant changes between then and now
-(Fedora 42)._
+_I originally wrote this guide for Fedora 36, and have made a couple adjustments with better sources for Fedora 44._
 
 ## Assumptions
 
@@ -51,33 +51,33 @@ This assumes a default Fedora installation, with the following Btrfs-based parti
 11. Resize the filesystem to use all the space: `btrfs filesystem resize max /mnt`, then unmount the filesystem with
     `umount /mnt`
 12. Mount the _**root subvolume**_ (the Linux filesystem root) with
-    `mount -t btrfs -o "noatime,subvol=root,compress=zstd:1" /dev/mapper/system /mnt`
+    `mount -o subvol=root /dev/mapper/system /mnt`
 13. Identify the devices for the boot and EFI partitions with `lsblk`. Mount the boot filesystem
     (`mount /dev/<boot device> /mnt/boot`), followed by the EFI filesystem for UEFI systems
-    (`mount /dev/<EFI device /mnt/boot/efi`).
+    (`mount /dev/<EFI device> /mnt/boot/efi`), and then the EFI vars directory (`sudo mount -o bind /sys/firmware/efi/efivars /mnt/sys/firmware/efi/efivars`.
 14. Bind-mount the pseudo filesystems `/dev`, `/dev/pts`, `/proc`, `/run`, and `/sys`, in the format of
-    `mount --bind /sys /mnt/sys`
+    `mount -o bind /sys /mnt/sys`
 15. Open a shell within the filesystem: `chroot /mnt /bin/bash`
 16. Open `/etc/default/grub` with a text editor, and modify the kernel parameters to identify the LUKS partition, and
     temporarily disable SELinux enforcing. Add these parameters, then save the changes and close the file:
     ```
     GRUB_CMDLINE_LINUX="[other params] rd.luks.uuid=<LUKS partition UUID> enforcing=0"
     ```
-17. Configure a relabelling of SELinux with `touch /.autorelabel`
-18. Regenerate the GRUB config: `grub2-mkconfig -o /boot/grub2/grub.cfg` (also generate for `/etc/grub2.cfg`, and on
-    UEFI systems `/etc/grub2-efi.cfg`)
+17. Configure a relabelling of SELinux with `fixfiles -F onboot` (if the output isn't as expected, run `touch /.autorelabel` instead)
+18. Regenerate the GRUB config: `grub2-mkconfig -o /boot/grub2/grub.cfg`
 19. Regenerate initramfs to ensure cryptsetup is enabled:
     `dracut -f /boot/initramfs-<kernel version>.img <kernel version>`
 20. Exit the chroot
-21. Unmount all filesystems in reverse order. (For filesystems mounted with `--bind`, the option `-l` can be used.)
+21. Unmount all filesystems in reverse order. (For filesystems mounted with `-o bind`, the option `-l` can be used, but this may break the live session. It probably isn't needed.)
     Close the LUKS partition with `cryptsetup close system`
 22. Reboot and log into the regular system. You'll be asked for your passphrase to decrypt the system during boot.
 23. Open `/etc/default/grub` in a text editor, and reenable SELinux enforcing by removing `enforcing=0` from
     `GRUB_CMDLINE_LINUX`. Save and exit.
-24. Relabel SELinux again with `touch /.autorelabel`.
+24. Relabel SELinux again with `fixfiles -F onboot`.
 25. **Repeat step 18** to regenerate the GRUB config.
 26. Reboot and log into the system.
 
 This answer heavily derives from _maxschelpzig_'s [answer](https://unix.stackexchange.com/a/584275/533888) and
 [the Arch wiki](https://wiki.archlinux.org/title/dm-crypt/Device_encryption#Encrypt_an_existing_unencrypted_file_system).
-It also pulls from _ceremcem's_ [answer](https://unix.stackexchange.com/a/558623/533888).
+It also pulls from the [Fedora documentation on GRUB](https://docs.fedoraproject.org/en-US/quick-docs/grub2-bootloader/)
+and _ceremcem's_ [answer](https://unix.stackexchange.com/a/558623/533888).
