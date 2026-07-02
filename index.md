@@ -16,7 +16,7 @@ Email comments or questions to <span style="white-space:nowrap;"><code>[hi at je
 ([please no PGP]({{ "/pgp" | absolute_url }})). I'm also active on Signal; ask for my username via email or Instagram
 for the quickest response.
 
-I've linked to some of my profiles in the sidebar/follow button and footer. Missing accounts that are cross-linked with
-my ORCID record are likely my own. Anything else _might_ be me if they link back to this website.
+Various accounts of mine are linked in the sidebar/follow button and footer, and more are cross-linked with my 
+ORCID record. Anything else _might_ be me if it links back to this website.
 
 ⌘\
