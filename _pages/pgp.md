@@ -16,8 +16,8 @@ using PGP, I'd strongly recommend against doing so:
 If you need secure communications, ask for my Signal username. Otherwise, we can try to work something out but no
 guarantees.
 
-My current PGP key is `6D71 C504 6A9A 4B98 DAE9 5EE8 BBA3 C03E D204 C805`, corresponding to
-<span style="white-space:nowrap;"><code>[dev at jessicarod, dot com]</code></span>. Retrieve it from
+My current PGP key is `81C7 F5CA ECED D144 FB95 B160 B2DA E4B4 2250 7308`, corresponding to
+<span style="white-space:nowrap;"><code>[dev at jessicarod, dot com]</code></span> and <span style="white-space:nowrap;"><code>[hi at the-same-domain]</code></span>. Retrieve it from
 [WKD](https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/) and keyservers using the [sq CLI](https://book.sequoia-pgp.org/):
 
 ```shell
