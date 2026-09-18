@@ -8,15 +8,14 @@ author_profile: true
 
 Hi, I'm Jessica!
 
-This is my personal website, where I blog about life, ideas, and everything else. There isn't a pattern to
-when I post, but I'm liking this "every two to three months" thing I have going on. Either way, you can be pleasantly
-surprised by subscribing to the [RSS feed]({{ "/feed.xml" | absolute_url }}).
-
+This is my personal website, where I blog about life, ideas, and everything else. I post when I have something
+to say, something to share, something I feel.
+ 
 Email comments or questions to <span style="white-space:nowrap;"><code>[hi at jessicarod, dot com]</code></span>
-([please no PGP]({{ "/pgp" | absolute_url }})). I'm also active on Signal; ask for my username via email or Instagram
+([please no PGP]({{ "/pgp" | absolute_url }})). I'm most active on Signal; ask for my username via email or Instagram
 for the quickest response.
 
-Various accounts of mine are linked in the sidebar/follow button and footer, and more are cross-linked with my 
+Various accounts of mine are included in the sidebar/follow button and footer, and more are cross-linked with my 
 ORCID record. Anything else _might_ be me if it links back to this website.
 
 ⌘\
