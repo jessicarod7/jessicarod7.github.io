@@ -16,12 +16,12 @@ using PGP, I'd strongly recommend against doing so:
 If you need secure communications, ask for my Signal username. Otherwise, we can try to work something out but no
 guarantees.
 
-My current PGP key is `81C7 F5CA ECED D144 FB95 B160 B2DA E4B4 2250 7308`, corresponding to
-<span style="white-space:nowrap;"><code>[dev at jessicarod, dot com]</code></span> and <span style="white-space:nowrap;"><code>[hi at the-same-domain]</code></span>. Retrieve it from
-[WKD](https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/) and keyservers using the [sq CLI](https://book.sequoia-pgp.org/):
+My current PGP key is `EF84 4651 D55B C81E 66E4 C911 3D27 DAED B2E8 5FA6`, corresponding to
+<span style="white-space:nowrap;"><code>[dev at jessicarod, dot ca]</code></span> . Retrieve it from the keyservers
+using the [sq CLI](https://book.sequoia-pgp.org/):
 
 ```shell
-# Pull from WKD and the keyservers
+# Pull from the keyservers
 sq network search <fingerprint_or_email>
 # Trust the cert once you verify it
 sq pki link add --cert <fingerprint> --all
