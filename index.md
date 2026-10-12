@@ -11,7 +11,7 @@ Hi, I'm Jessica!
 This is my personal website, where I blog about life, ideas, and everything else. I post when I have something
 to say, something to share, something I feel.
  
-Email comments or questions to <span style="white-space:nowrap;"><code>[hi at jessicarod, dot com]</code></span>
+Email comments or questions to <span style="white-space:nowrap;"><code>[hi at jessicarod, dot ca]</code></span>
 ([please no PGP]({{ "/pgp" | absolute_url }})). I'm most active on Signal; ask for my username via email or Instagram
 for the quickest response.
 
