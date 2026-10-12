@@ -1,8 +1,9 @@
-# [jessicarod.com](https://jessicarod.com)
+# jessicarod on the Web
 
-_and [jessicarod.ca](https://jessicarod.ca) (currently a redirect)_
+This is the repo behind my personal website. I'm currently migrating to the
+`.ca` TLD, so expect a change in the next few months.
 
-This is the repo behind my personal site.
+⌘\
 
 ## Minimal Mistakes repo patches
 
