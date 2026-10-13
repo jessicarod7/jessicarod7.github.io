@@ -12,8 +12,8 @@ to add customizations (stored in [_patches/](./_patches)). Here are the imported
 
 |         Directory         |                                       Tag                                       | Last bumped |                Patch file                 |
 |:-------------------------:|:-------------------------------------------------------------------------------:|:-----------:|:-----------------------------------------:|
-|     [_sass/](./_sass)     |   [`4.27.3`](https://github.com/mmistakes/minimal-mistakes/tree/4.27.3/_sass)   | 2025-11-16  |     [sass.diff](./_patches/sass.diff)     |
-| [_includes/](./_includes) | [`4.27.3`](https://github.com/mmistakes/minimal-mistakes/tree/4.27.3/_includes) | 2025-11-16  | [includes.diff](./_patches/includes.diff) |
+|     [_sass/](./_sass)     |   [`4.28.1`](https://github.com/mmistakes/minimal-mistakes/tree/4.28.1/_sass)   | 2026-10-13  |     [sass.diff](./_patches/sass.diff)     |
+| [_includes/](./_includes) | [`4.28.1`](https://github.com/mmistakes/minimal-mistakes/tree/4.28.1/_includes) | 2026-10-13  | [includes.diff](./_patches/includes.diff) |
 
 <details>
     <summary>Components of Minimal Mistakes are used under the MIT License</summary>

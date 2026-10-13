@@ -1,6 +1,6 @@
-diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_sidebar.scss _sass/minimal-mistakes/_sidebar.scss
---- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_sidebar.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/_sidebar.scss	2025-11-16 13:32:55.921491045 -0500
+diff '--color=auto' -Nru --color /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_sidebar.scss _sass/minimal-mistakes/_sidebar.scss
+--- /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_sidebar.scss	2026-08-10 21:50:38.000000000 -0400
++++ _sass/minimal-mistakes/_sidebar.scss	2026-10-13 12:03:58.884000000 -0400
 @@ -201,6 +201,10 @@
    .author__urls {
      span.label {
@@ -12,70 +12,29 @@ diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_sidebar
      }
    }
  
-diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/skins/_dirt.scss _sass/minimal-mistakes/skins/_dirt.scss
---- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/skins/_dirt.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/skins/_dirt.scss	2024-12-22 15:10:42.037598946 -0500
-@@ -15,19 +15,19 @@
- $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
- 
- /* dirt syntax highlighting (base16) */
--$base00: #231e18 !default;
--$base01: #302b25 !default;
--$base02: #48413a !default;
--$base03: #9d8b70 !default;
--$base04: #b4a490 !default;
--$base05: #cabcb1 !default;
--$base06: #d7c8bc !default;
--$base07: #e4d4c8 !default;
--$base08: #d35c5c !default;
--$base09: #ca7f32 !default;
--$base0a: #e0ac16 !default;
--$base0b: #b7ba53 !default;
--$base0c: #6eb958 !default;
--$base0d: #88a4d3 !default;
--$base0e: #bb90e2 !default;
--$base0f: #b49368 !default;
-+//$base00: #231e18 !default;
-+//$base01: #302b25 !default;
-+//$base02: #48413a !default;
-+//$base03: #9d8b70 !default;
-+//$base04: #b4a490 !default;
-+//$base05: #cabcb1 !default;
-+//$base06: #d7c8bc !default;
-+//$base07: #e4d4c8 !default;
-+//$base08: #d35c5c !default;
-+//$base09: #ca7f32 !default;
-+//$base0a: #e0ac16 !default;
-+//$base0b: #b7ba53 !default;
-+//$base0c: #6eb958 !default;
-+//$base0d: #88a4d3 !default;
-+//$base0e: #bb90e2 !default;
-+//$base0f: #b49368 !default;
-diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utilities.scss _sass/minimal-mistakes/_utilities.scss
---- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_utilities.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/_utilities.scss	2025-11-22 13:34:43.508412577 -0500
-@@ -217,14 +217,17 @@
-     $lastfm-color: ".fa-lastfm, .fa-lastfm-square",
+diff '--color=auto' -Nru --color /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_utilities.scss _sass/minimal-mistakes/_utilities.scss
+--- /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_utilities.scss	2026-08-10 21:50:38.000000000 -0400
++++ _sass/minimal-mistakes/_utilities.scss	2026-10-13 12:03:58.907000000 -0400
+@@ -219,6 +219,7 @@
+     $lastfm-color: ".fa-lastfm, .fa-lastfm-square, .fa-square-lastfm",
      $linkedin-color: ".fa-linkedin, .fa-linkedin-in",
-     $mastodon-color: ".fa-mastodon, .fa-mastodon-square",
+     $mastodon-color: ".fa-mastodon",
 +    $orcid-color: ".fa-orcid",
-     $pinterest-color: ".fa-pinterest, .fa-pinterest-p, .fa-pinterest-square",
+     $pinterest-color: ".fa-pinterest, .fa-pinterest-p, .fa-pinterest-square, .fa-square-pinterest",
      $reddit-color: ".fa-reddit",
-     $rss-color: ".fa-rss, .fa-rss-square",
-+    $signal-color: ".fa-signal-messenger",
-     $soundcloud-color: ".fa-soundcloud",
-     $stackoverflow-color: ".fa-stack-exchange, .fa-stack-overflow",
-     $tumblr-color: ".fa-tumblr, .fa-tumblr-square",
-     $twitter-color: ".fa-twitter, .fa-twitter-square",
-     $x-color: ".fa-x-twitter, .fa-square-x-twitter",
-+    $xbox-color: ".fa-xbox",
-     $vimeo-color: ".fa-vimeo, .fa-vimeo-square, .fa-vimeo-v",
+     $rss-color: ".fa-rss, .fa-rss-square, .fa-square-rss",
+@@ -232,6 +233,7 @@
+     $vimeo-color: ".fa-vimeo, .fa-vimeo-square, .fa-square-vimeo, .fa-vimeo-v",
      $vine-color: ".fa-vine",
-     $xing-color: ".fa-xing, .fa-xing-square",
-diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_variables.scss _sass/minimal-mistakes/_variables.scss
---- /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_variables.scss	2025-07-29 01:03:47.000000000 -0400
-+++ _sass/minimal-mistakes/_variables.scss	2025-11-22 13:34:43.484412152 -0500
-@@ -135,14 +135,17 @@
+     $whatsapp-color: ".fa-whatsapp",
++    $xbox-color: ".fa-xbox",
+     $xing-color: ".fa-xing, .fa-xing-square, .fa-square-xing",
+     $youtube-color: ".fa-youtube",
+ 
+diff '--color=auto' -Nru --color /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_variables.scss _sass/minimal-mistakes/_variables.scss
+--- /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_variables.scss	2026-08-10 21:50:38.000000000 -0400
++++ _sass/minimal-mistakes/_variables.scss	2026-10-13 12:03:58.900000000 -0400
+@@ -136,6 +136,7 @@
  $lastfm-color: #d51007 !default;
  $linkedin-color: #007bb6 !default;
  $mastodon-color: #2b90d9 !default;
@@ -83,13 +42,11 @@ diff '--color=auto' -ru /minimal-mistakes-4.27.3/_sass/minimal-mistakes/_variabl
  $pinterest-color: #cb2027 !default;
  $reddit-color: #ff4500 !default;
  $rss-color: #fa9b39 !default;
-+$signal-color: #3b45fd !default;
- $soundcloud-color: #ff3300 !default;
- $stackoverflow-color: #fe7a15 !default;
+@@ -146,6 +147,7 @@
  $tumblr-color: #32506d !default;
  $twitter-color: #55acee !default;
  $x-color: #0f1419 !default;
 +$xbox-color: #107C10 !default;
  $vimeo-color: #1ab7ea !default;
  $vine-color: #00bf8f !default;
- $youtube-color: #bb0000 !default;
+ $whatsapp-color: #25d366 !default;
