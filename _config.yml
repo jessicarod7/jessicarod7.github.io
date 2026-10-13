@@ -13,7 +13,7 @@
 # Derived from: https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 
 theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "dirt"
+minimal_mistakes_skin: "catppuccin_latte"
 
 # Site Settings
 locale: "en-CA"
@@ -99,6 +99,7 @@ facebook:
   app_id:
   publisher:
 og_image: "/assets/img/Jessica-Rodriguez-og-image-1x.jpg" # Open Graph/Twitter default site image
+og_image_alt: "Photo of Jessica Rodriguez on a sunny day in front of Lake Huron"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -125,6 +126,7 @@ author:
   bio: "Software engineer, occasional blogger."
   location: "Toronto, Canada"
   email: # See home page
+  fediverse: "@jessicarod@transfem.social"
   links:
     - label: "Contact for Signal"
       label-color: "signal"
@@ -331,6 +333,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+# show_taxonomy: false  # set to false to hide tag/category lists on posts
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
