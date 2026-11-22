@@ -1,7 +1,6 @@
-# jessicarod on the Web
+# [jessicarod.ca](https://jessicarod.ca)
 
-This is the repo behind my personal website. I'm currently migrating to the
-`.ca` TLD, so expect a change in the next few months.
+This is the repo behind my personal website. The old domain `jessicarod.com` redirects to the new TLD.
 
 ⌘\
 
