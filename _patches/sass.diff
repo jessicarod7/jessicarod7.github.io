@@ -14,7 +14,7 @@ diff '--color=auto' -Nru --color /minimal-mistakes-4.28.1/_sass/minimal-mistakes
  
 diff '--color=auto' -Nru --color /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_utilities.scss _sass/minimal-mistakes/_utilities.scss
 --- /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_utilities.scss	2026-08-10 21:50:38.000000000 -0400
-+++ _sass/minimal-mistakes/_utilities.scss	2026-10-13 12:03:58.907000000 -0400
++++ _sass/minimal-mistakes/_utilities.scss	2026-11-21 20:46:01.355000000 -0500
 @@ -219,6 +219,7 @@
      $lastfm-color: ".fa-lastfm, .fa-lastfm-square, .fa-square-lastfm",
      $linkedin-color: ".fa-linkedin, .fa-linkedin-in",
@@ -31,9 +31,27 @@ diff '--color=auto' -Nru --color /minimal-mistakes-4.28.1/_sass/minimal-mistakes
      $xing-color: ".fa-xing, .fa-xing-square, .fa-square-xing",
      $youtube-color: ".fa-youtube",
  
+@@ -434,13 +436,14 @@
+    ========================================================================== */
+ 
+ .footnote {
+-  color: mix(#fff, $gray, 25%);
++  //color: mix(#fff, $gray, 25%);
++  color: mix(#fff, $darker-gray, 25%); // Patched for Catppuccin Latte
+   text-decoration: none;
+ }
+ 
+ .footnotes {
+-  color: mix(#fff, $gray, 25%);
+-
++  //color: mix(#fff, $gray, 25%);
++  color: mix(#fff, $darker-gray, 25%); // Patched for Catppuccin Latte
+   ol,
+   li,
+   p {
 diff '--color=auto' -Nru --color /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_variables.scss _sass/minimal-mistakes/_variables.scss
 --- /minimal-mistakes-4.28.1/_sass/minimal-mistakes/_variables.scss	2026-08-10 21:50:38.000000000 -0400
-+++ _sass/minimal-mistakes/_variables.scss	2026-10-13 12:03:58.900000000 -0400
++++ _sass/minimal-mistakes/_variables.scss	2026-10-13 12:24:24.298763709 -0400
 @@ -136,6 +136,7 @@
  $lastfm-color: #d51007 !default;
  $linkedin-color: #007bb6 !default;
