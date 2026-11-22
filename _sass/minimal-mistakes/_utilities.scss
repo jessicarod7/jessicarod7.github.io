@@ -436,13 +436,14 @@ $text-alignments: left, right, start, end, center, justify;
    ========================================================================== */
 
 .footnote {
-  color: mix(#fff, $gray, 25%);
+  //color: mix(#fff, $gray, 25%);
+  color: mix(#fff, $darker-gray, 25%); // Patched for Catppuccin Latte
   text-decoration: none;
 }
 
 .footnotes {
-  color: mix(#fff, $gray, 25%);
-
+  //color: mix(#fff, $gray, 25%);
+  color: mix(#fff, $darker-gray, 25%); // Patched for Catppuccin Latte
   ol,
   li,
   p {
